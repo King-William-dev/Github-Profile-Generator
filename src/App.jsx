@@ -1,7 +1,8 @@
 import React from 'react';
 import Logo from './components/Logo';
 import { Route, Routes } from 'react-router-dom';
-import Users from './components/Routers/Users';
+import Users from './components/Routes/Users';
+import UserInfo from './components/Routes/UserInfo';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
         <Logo />
         <Routes>
           <Route path="/" element={<Users />} />
+          <Route path="/:name" element={<UserInfo />} />
         </Routes>
       </div>
     </div>
