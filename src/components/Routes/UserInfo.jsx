@@ -41,7 +41,7 @@ const UserInfo = () => {
               </h1>
             </div>
             <h1 className="text-center text-2xl mb-5">
-              <span className="text-purple-800">@{uinfo?.login}</span>
+              <span className="text-blue-800 text-3xl">@{uinfo?.login}</span>
             </h1>
             <div className="flex justify-between gap-10">
               <h1 className=" py-1 px-3">
@@ -56,16 +56,16 @@ const UserInfo = () => {
               </h1>
             </div>
             <div className="flex gap-10 ">
-              <h1 className="bg-gray-400 px-8 py-4 mt-10 rounded text-2xl text-center">
+              <h1 className="bg-gray-700 px-8 py-4 mt-10 rounded text-2xl text-center">
                 <span>FOLLOWERS</span>
                 <br /> {uinfo?.followers}
               </h1>
-              <h1 className="bg-gray-400 px-8 py-4 mt-10 rounded text-2xl text-center">
+              <h1 className="bg-gray-700 px-8 py-4 mt-10 rounded text-2xl text-center">
                 <span>FOLLOWING</span>
                 <br /> {uinfo?.following}
               </h1>
 
-              <h1 className="bg-gray-400 px-8 py-4 mt-10 rounded text-2xl text-center">
+              <h1 className="bg-gray-700 px-8 py-4 mt-10 rounded text-2xl text-center">
                 <span>REPOSITORIES</span>
                 <br /> {uinfo?.public_repos}
               </h1>
