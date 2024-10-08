@@ -14,6 +14,7 @@ const UsersContainer = ({ users }) => {
               src={user?.avatar_url}
               className="w-24 mb-4 border-4 rounded-full border-fuchsia-700"
             />
+            <h2 className="text-2xl text-center ">{user?.name}</h2>
             <h2 className="text-2xl text-center ">{user?.login}</h2>
             <h2 className="text-xs">{user?.name}</h2>
             <Link to={`/${user?.login}`}>
