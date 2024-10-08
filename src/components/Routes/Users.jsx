@@ -47,7 +47,7 @@ const Users = () => {
         />
         <button
           onClick={FindUser}
-          className="bg-teal-500 font-semibold px-4 h-10 mt-10"
+          className="bg-teal-600 font-semibold px-4 h-10 mt-10"
         >
           Search
         </button>

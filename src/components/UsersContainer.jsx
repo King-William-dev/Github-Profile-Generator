@@ -11,12 +11,12 @@ const UsersContainer = ({ users }) => {
           >
             <img
               src={user?.avatar_url}
-              className="w-24 mb-4 border-4 rounded-full border-fuchsia-700"
+              className="w-24 mb-4 border-4 rounded-full border-teal-900"
             />
             <h2 className="text-2xl text-center mb-4">{user?.login}</h2>
             <h2 className="text-2xl text-center">{user?.name}</h2>
             <Link to={`/${user?.login}`}>
-              <span className="text-gray-400 bg-teal-500 font-semibold py-1 px-4 tracking-wide rounded">
+              <span className="text-gray-800 bg-teal-700 font-semibold py-1 px-4 tracking-wide rounded">
                 View Profile
               </span>
             </Link>

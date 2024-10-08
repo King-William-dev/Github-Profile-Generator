@@ -6,8 +6,8 @@ import UserInfo from './components/Routes/UserInfo';
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-teal-600">
-      <div className="container text-gray-200 py-3">
+    <div className="min-h-screen bg-neutral-900 dark:bg-neutral-900">
+      <div className="container text-gray-300 py-3">
         <Logo />
         <Routes>
           <Route path="/" element={<Users />} />

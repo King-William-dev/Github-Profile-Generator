@@ -17,7 +17,7 @@ const UserInfo = () => {
   }, [pathname]);
 
   return (
-    <div className="py-5">
+    <div className="py-5 dark:bg-neutral-100">
       <button
         onClick={() => navigate('/')}
         className="px-5 py-1 font-medium mx-1 my-4 bg-teal-500 rounded"
