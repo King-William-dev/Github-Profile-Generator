@@ -32,7 +32,7 @@ const UserInfo = () => {
           >
             <img
               src={uinfo.avatar_url}
-              className="w-[350px] border-4 border-teal-400 md:mx-0 mx-auto"
+              className="w-[350px] border-4 border-teal-400 md:mx-0 mx-auto rounded"
             />
             <div className="text-lg px-3 leading-10">
               <h1 className="text-3xl pb-4">
